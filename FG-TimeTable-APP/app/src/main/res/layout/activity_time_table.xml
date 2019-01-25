@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    tools:context="app.it.hueic.nghiencuukhoahochueic.view.TimeTableActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/tbTimeTable"/>
+    <app.it.hueic.nghiencuukhoahochueic.view.custom.CalendarView
+        xmlns:calendarNS="http://schemas.android.com/apk/res/app.it.hueic.nghiencuukhoahochueic"
+        android:id="@+id/calendar_view"
+        android:layout_below="@+id/tbTimeTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        calendarNS:dateFormat="MMMM yyyy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:padding="10dp"
+        android:theme="@style/MyButton"
+        android:background="@color/colorPrimaryDark"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnImport"
+        android:text="@string/import_excel"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_sync_black_24dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/calendar_view"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

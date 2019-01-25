@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_title_notifications">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_notifications_active_black_24dp"
+            android:key="@string/notification_key"
+            android:title="@string/notification_status"
+            />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_vibrate"
+            android:icon="@drawable/ic_vibration_black_24dp"
+            android:summary="@string/summary_vibrate"
+            android:title="@string/title_vibrate" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_about">
+
+        <Preference
+            android:selectable="false"
+            android:summary="@string/summary_about"
+            />
+
+        <Preference
+            android:key="@string/version_key"
+            android:summary="@string/app_version"
+            android:title="@string/title_version"
+            android:icon="@drawable/ic_stay_primary_portrait_black_24dp"/>
+
+        <Preference
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:key="@string/key_send_feedback"
+            android:summary="@string/summary_support"
+            android:title="@string/title_send_feedback" />
+
+        <!-- preference opens url in browser -->
+
+    </PreferenceCategory>
+</PreferenceScreen>

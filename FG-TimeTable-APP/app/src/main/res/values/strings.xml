@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">TimeTable HueIC</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="label_day">Ngay :</string>
+    <string name="finish">Kết thúc</string>
+    <string name="updirectory">Thư mục trước</string>
+    <string name="memory">Bộ nhớ</string>
+    <string name="import_excel">Đồng Bộ</string>
+    <string name="success_import_excel">Đồng bộ file excel thành công!</string>
+    <string name="Tiet">TIẾT</string>
+    <string name="lop_hoc_phan">LỚP HỌC PHẦN</string>
+    <string name="import_file">Đồng bộ</string>
+    <string name="time_table">THỜI KHÓA BIỂU</string>
+    <string name="title_activity_settings">Cài đặt</string>
+
+    <!--Setting string-->
+    <!--Notification-->
+    <string name="pref_title_notifications">Thông báo</string>
+    <string name="notification_status">Bật thông báo</string>
+    <string name="title_vibrate">Rung</string>
+    <string name="summary_vibrate">Rung khi có thông báo</string>
+
+    <string name="key_vibrate">key_vibrate</string>
+    <string name="notification_key">notification_key</string>
+    <!--About-->
+
+    <string name="pref_header_about">About</string>
+    <string name="summary_about">We are a team of like-minded people,
+        specialized in development of Android App Development creating new trends across the app space. Glad to Help in anyway!</string>
+    <string name="summary_support">Chúng tôi rất vui khi được giúp bạn!</string>
+    <string name="title_version">Phiên bản</string>
+    <string name="app_version">1.0</string>
+    <string name="title_send_feedback">Gửi phản hồi</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+    <string name="version_key">version_key</string>
+    <string name="calendar_str">Calendar</string>
+    <string name="tittle_string">Tiêu đề:</string>
+    <string name="this_is_title">Đây là tiêu đề.</string>
+    <string name="this_is_content">Đây là nội dung</string>
+    <string name="content">Nội dung:</string>
+    <string name="add">Thêm</string>
+    <string name="edit">Sửa</string>
+    <string name="clear">Xóa</string>
+    <string name="menu_item_save">Lưu</string>
+
+    <!--Admob-->
+    <string name="runtime_permissions_txt">Please enable ALL permissions from app settings.</string>
+
+    <string name="id_ads_mob">ca-app-pub-3017520674513428~7499068927</string>
+    <string name="id_ads_banner_1">ca-app-pub-3017520674513428/6676764231</string>
+</resources>
